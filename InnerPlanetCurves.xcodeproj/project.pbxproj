@@ -12,6 +12,7 @@
 		3E7CBCBC1CD8C8A600EBAB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7CBCBA1CD8C8A600EBAB07 /* Main.storyboard */; };
 		3E7CBCBE1CD8C8A600EBAB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7CBCBD1CD8C8A600EBAB07 /* Assets.xcassets */; };
 		3E7CBCC11CD8C8A600EBAB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7CBCBF1CD8C8A600EBAB07 /* LaunchScreen.storyboard */; };
+		3E7CBCC91CD9A89900EBAB07 /* Orrery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CBCC81CD9A89900EBAB07 /* Orrery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3E7CBCBD1CD8C8A600EBAB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7CBCC01CD8C8A600EBAB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7CBCC21CD8C8A600EBAB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7CBCC81CD9A89900EBAB07 /* Orrery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orrery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3E7CBCBD1CD8C8A600EBAB07 /* Assets.xcassets */,
 				3E7CBCBF1CD8C8A600EBAB07 /* LaunchScreen.storyboard */,
 				3E7CBCC21CD8C8A600EBAB07 /* Info.plist */,
+				3E7CBCC81CD9A89900EBAB07 /* Orrery.swift */,
 			);
 			path = InnerPlanetCurves;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7CBCB91CD8C8A600EBAB07 /* ViewController.swift in Sources */,
+				3E7CBCC91CD9A89900EBAB07 /* Orrery.swift in Sources */,
 				3E7CBCB71CD8C8A600EBAB07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.InnerPlanetCurves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -266,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.InnerPlanetCurves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
